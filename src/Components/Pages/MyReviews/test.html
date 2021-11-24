@@ -1,0 +1,4 @@
+<div className="d-flex justify-content-evenly align-items-center">
+    <NavLink to={`/dashbord/updateReview/${review?._id}`}> <button className="btn btn-warning">Edit Review</button> </NavLink>
+     <button className="btn btn-danger" onClick={()=>{deleteReview(review?._id)}}>Delete review</button>
+     </div>
